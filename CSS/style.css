@@ -79,6 +79,7 @@ ol > li > ul > li
 ol > li > ul >li:hover
 {
     background: #101010;
+    cursor: pointer;
 }
 
 ol > li:hover > ul
@@ -137,6 +138,7 @@ ol > li:hover > ul
 .optionL:hover
 {
     background: #101010;
+    cursor: pointer;
 }
 
 #content
@@ -152,7 +154,7 @@ ol > li:hover > ul
 #footer
 {
     clear: both;
-    background: #303030;
+    background: #202020;
     min-height: 30px;
     text-align: center;
     padding: 5px;
