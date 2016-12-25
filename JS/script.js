@@ -2,9 +2,19 @@ var text = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fa
 
 var data = {
     devices: {
-         system : "Opis System ",
-         iphone7 : "Opis iphone 7",
-         iphone8 : "Opis iphone 8"
+         sglowna: "Przykładowy text",
+         ios: "Opis Systemu",
+         iphone7: "Opis iPhone 7",
+         iphone8: "Opis iPhone 8",
+         ipadmini: "Opis iPada mini",
+         ipadair: "Opis iPada Air",
+         ipadpro: "Opis iPada Pro",
+         macos: "Opis Systemu",
+         macbookair: "Opis MacBooka Air",
+         macbookpro: "Opis MacBooka Pro",
+         imac: "Opis iMaca",
+         imacpro: "Opis iMaca Pro",
+         oprojekcie: "Kilka słów o projekcie"
     }
 };
 

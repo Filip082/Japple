@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
     </head>
     
-    <body onload="sglowna()">
+    <body onload="insertContent('O Apple', 'sglowna')">
      
        <div id="container">
 
@@ -19,37 +19,37 @@
            </div>
            <div id="menu">
             <ol> 
-               <li onclick="sglowna()">Strona główna</li>
+               <li onclick="insertContent('O Apple', 'sglowna')">Strona główna</li>
                <li>iPhone
                    <ul>
-                       <li onclick="insertContent('marek', 'system')">System</li>
-                       <li onclick="insertContent('iphone7', 'iphone7')">iPhone 7</li>
-                       <li onclick="insertContent('iphone8 tere fere', 'iphone8')">iPhone 8</li>
+                       <li onclick="insertContent('iOS', 'ios')">System</li>
+                       <li onclick="insertContent('iPhone7', 'iphone7')">iPhone 7</li>
+                       <li onclick="insertContent('iPhone8', 'iphone8')">iPhone 8</li>
                    </ul>
                </li>
                <li>iPad
                    <ul>
-                       <li onclick="iOS()">System</li>
-                       <li onclick="iPadmini()">iPad mini</li>
-                       <li onclick="iPadair()">iPad Air</li>
-                       <li onclick="iPadpro()">iPad Pro</li>
+                       <li onclick="insertContent('iOS', 'ios')">System</li>
+                       <li onclick="insertContent('iPad mini', 'ipadmini')">iPad mini</li>
+                       <li onclick="insertContent('iPad Air', 'ipadair')">iPad Air</li>
+                       <li onclick="insertContent('iPad Pro', 'ipadpro')">iPad Pro</li>
                    </ul>
                </li>
                <li>MacBook
                   <ul>
-                       <li onclick="MacOS()">System</li>
-                       <li onclick="MacBookAir()">MacBook Air</li>
-                       <li onclick="MacBookPro()">MacBook Pro/2</li>
+                       <li onclick="insertContent('O MacOS', 'macos')">System</li>
+                       <li onclick="insertContent('MacBook Air', 'macbookair')">MacBook Air</li>
+                       <li onclick="insertContent('MacBook Pro', 'macbookpro')">MacBook Pro</li>
                   </ul>
                </li>
                <li>iMac
                   <ul>
-                       <li onclick="MacOS()">System</li>
-                       <li onclick="iMac()">iMac</li>
-                       <li onclick="iMacPro()">iMac Pro</li>
+                       <li onclick="insertContent('O MacOS', 'macos')">System</li>
+                       <li onclick="insertContent('iMac', 'imac')">iMac</li>
+                       <li onclick="insertContent('iMac Pro', 'imacpro')">iMac Pro</li>
                   </ul>
                </li> 
-               <li onclick="Oprojekcie()">O projekcie</li>
+               <li onclick="insertContent('O projekcie', 'oprojekcie')">O projekcie</li>
             </ol>
            </div>
             <div id="topbar">
@@ -64,12 +64,12 @@
                 <div style="clear: both;"></div>
             </div>
             <div id="sidebar">
-                <div class="optionL" onclick="sglowna()">Strona główna</div>
-                <div class="optionL" onclick="iPhone7()">iPhone</div>
-                <div class="optionL" onclick="iPadpro()">iPad</div>
-                <div class="optionL" onclick="MacBookPro()">MacBook</div>
-                <div class="optionL" onclick="iMacPro()">iMac</div>
-                <div class="optionL" onclick="Oprojekcie()">O projekcie</div>
+                <div class="optionL" onclick="insertContent('O Apple', 'sglowna')">Strona główna</div>
+                <div class="optionL" onclick="insertContent('iPhone7', 'iphone7')">iPhone</div>
+                <div class="optionL" onclick="insertContent('iPad Pro', 'ipadpro')">iPad</div>
+                <div class="optionL" onclick="insertContent('MacBook Pro', 'macbookpro')">MacBook</div>
+                <div class="optionL" onclick="insertContent('iMac Pro', 'imacpro')">iMac</div>
+                <div class="optionL" onclick="insertContent('O projekcie', 'oprojekcie')">O projekcie</div>
             </div>
             <div id="content">
             </div>    
