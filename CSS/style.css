@@ -1,0 +1,163 @@
+body 
+{
+   color: snow;
+   background: #555555;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    color: snow;
+    margin-top: 20px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+#menu
+{
+    background: #303030;
+    margin-top: 20px;
+    color: snow;
+    padding: 10px;
+    text-align: center;
+    min-height: 35px;   
+}
+
+ol 
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 25px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol > li
+{
+    float: left;
+    min-width: 150px;
+    border-right: 2px solid #565;
+}
+
+ol > li:first-child
+{
+    border-left: 2px solid #565;
+}
+
+ol > li:hover
+{
+    background-color: #101010;
+}
+
+ol > li > ul
+{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    display: none;
+}
+
+ol > li > ul > li
+{
+    background: #303030;
+    position: relative;
+    border-top: 2px solid #565;
+    
+}
+
+ol > li > ul >li:hover
+{
+    background: #101010;
+}
+
+ol > li:hover > ul
+{
+    display: block;
+}
+#topbar
+{
+    background-color: #23aa60;
+     padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 170px;
+}
+
+#logo-sm
+{
+    width: 150px;
+    height: 150px;
+}
+
+#topbarL
+{
+    float: left;
+    padding: 10px;
+    border-right: 2px solid #565;
+    text-align: center;
+    width: 168px;
+}
+
+#topbarR
+{
+    float: left;
+    width: 750px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+#sidebar
+{
+    float: left;
+    width: 158px;
+    min-height: 420px;
+    padding: 20px;
+    border-right: 2px solid #565;
+    background: #303030;
+}
+
+.optionL
+{
+    border-bottom: 2px solid #565;
+    text-align: center;
+    padding: 10px;
+}
+.optionL:hover
+{
+    background: #101010;
+}
+
+#content
+{
+    background: #444; 
+    min-height: 420px;
+    float: left;
+    width: 760px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#footer
+{
+    clear: both;
+    background: #303030;
+    min-height: 30px;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+
+
