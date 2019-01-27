@@ -7,7 +7,7 @@ body
 
 #container
 {
-    width: 1000px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,9 +25,10 @@ body
     background: #303030;
     margin-top: 20px;
     color: snow;
-    padding: 10px;
+    padding: 1%;
     text-align: center;
-    min-height: 35px;   
+    height: 10%;  
+    width: 100% 
 }
 
 ol 
@@ -44,7 +45,7 @@ ol
 ol > li
 {
     float: left;
-    min-width: 150px;
+    width: 150px;
     border-right: 2px solid #565;
 }
 
@@ -92,13 +93,14 @@ ol > li:hover > ul
      padding: 10px;
     margin-top: 20px;
     margin-bottom: 25px;
-    height: 170px;
+    height: 30%;
+    width: 100%
 }
 
 #logo-sm
 {
-    width: 150px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
 }
 
 #topbarL
@@ -107,26 +109,31 @@ ol > li:hover > ul
     padding: 10px;
     border-right: 2px solid #565;
     text-align: center;
-    width: 168px;
+    width: 20%;
 }
 
 #topbarR
 {
     float: left;
-    width: 750px;
+    width: 70%;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     font-size: 25px;
 }
 
 #sidebar
 {
     float: left;
-    width: 158px;
-    min-height: 420px;
+    width: 20%;
+    height: 500px;
     padding: 20px;
     border-right: 2px solid #565;
     background: #303030;
+}
+
+.optionL:first-child
+{
+    border-top: 2px solid #565;
 }
 
 .optionL
@@ -144,18 +151,18 @@ ol > li:hover > ul
 #content
 {
     background: #444; 
-    min-height: 420px;
+    min-height: 500px;
     float: left;
-    width: 760px;
+    width: 70%;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-#footer
+footer
 {
     clear: both;
     background: #202020;
-    min-height: 30px;
+    height: 10%;
     text-align: center;
     padding: 5px;
     letter-spacing: 2px;

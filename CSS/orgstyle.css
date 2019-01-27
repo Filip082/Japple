@@ -1,8 +1,9 @@
+/* Background pattern from Subtle Patterns */
 body 
 {
-   color: snow;
-   background: #555555;
-   font-family: 'Noto Sans', sans-serif;
+    background-color: #555;
+    color: snow;
+    font-family: 'Noto Sans', 'sans-serif';
 }
 
 #container
